@@ -1,38 +1,81 @@
-.App {
+body {
+  background-image: url("8c43645fe8d0ac164a6925448be32858.jpg");
+}
+
+.calculator {
+  height: 600px;
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding box shadow for depth */
   text-align: center;
+  background-color: #686868;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h1 {
+  margin-bottom: 20px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+input[type="text"] {
+  background-color: white;
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.buttons {
+  display: flex;
+  flex-direction: column; /* Adjusted to column layout */
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+button {
+  margin: 5px;
+  flex-grow: 1; /* Buttons will take equal space */
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px; /* Adding some rounded corners */
+  background-color: #f0f0f0;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+button.gray {
+  background-color: #c5ff84;
+}
+
+button.orange {
+  background-color: orange;
+}
+
+button.blue {
+  background-color: rgb(4, 119, 251);
+  color: white;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+.result {
+  margin-top: 10px;
+  font-size: 24px;
+  text-align: right; /* Aligning the result to the right */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
 }
