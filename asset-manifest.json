@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/MetricMaster/static/css/main.b7386e6f.css",
+    "main.js": "/MetricMaster/static/js/main.76685095.js",
+    "static/media/jpg": "/MetricMaster/static/media/8c43645fe8d0ac164a6925448be32858.e5f17600786d4366f5a0.jpg",
+    "index.html": "/MetricMaster/index.html",
+    "main.b7386e6f.css.map": "/MetricMaster/static/css/main.b7386e6f.css.map",
+    "main.76685095.js.map": "/MetricMaster/static/js/main.76685095.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7386e6f.css",
+    "static/js/main.76685095.js"
+  ]
+}
